@@ -1,0 +1,115 @@
+footer {
+    height: 576px;
+    background: #0E100F;
+    padding-top: 1px;
+}
+
+.ellpise4 {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 280px;
+    right: 0px;
+    background: linear-gradient(to bottom right, #E7CE4A 0%, #E64467 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #E7CE4A 0%, #E64467 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #E7CE4A 0%, #E64467 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #E7CE4A 0%, #E64467 50%) top right / 50% 50% no-repeat;
+}
+
+.footer_content {
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid #FFF;
+    background: linear-gradient(153deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(21px);
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    gap: 40px;
+}
+
+.footer_logo {
+    height: 60px;
+    width: 60px;
+    background-color: #F45725;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0px 0px 11.292px 0px rgba(0, 0, 0, 0.30) inset;
+}
+
+.footerLogo {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 20px;
+}
+
+.footer_logo img {
+    height: 64px;
+    width: 48px;
+    position: relative;
+    top: 10px;
+}
+
+.footer_logo_title {
+    color: #FFF;
+    text-shadow: 1px 0.497px 1px #F45725;
+    font-family: Rubik;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer_links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40rem;
+}
+
+.footer_links {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.footer_icon ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.footer_icon ul li {
+    background-color: #FFF;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_line hr {
+    width: 79rem;
+    color: #F45725;
+    border-color: #F45725;
+}
+
+.footer_copyright {
+    color: var(--White-White-90, #CFD3D7);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 27px;
+}

@@ -1,0 +1,88 @@
+section {
+    height: 100vh;
+    background: linear-gradient(180deg, #F45725 -356.87%, rgba(244, 87, 37, 0.00) 75.74%);
+    background-color: #0E100F;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 70px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+.about_title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about_text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.about_text span {
+    color: #F45725;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.rectangle {
+    width: 500px;
+    transform: rotate(-15deg);
+    border: 1px solid red;
+    display: flex;
+    gap: 30px;
+    border-radius: 16px;
+    border: 1px solid #FFF;
+    background: linear-gradient(153deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(21px);
+}
+
+
+.reactangle_image img {
+    border-radius: 20px;
+    background-position: center;
+    width: 220px;
+    height: 300px;
+    padding: 10px;
+}
+
+.rectangle_text div:first-child {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+.rectangle_text div:last-child {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 50px;
+}

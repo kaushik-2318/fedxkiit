@@ -1,0 +1,89 @@
+nav {
+    position: fixed;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+    top: 20px;
+    left: 71px;
+    z-index: 10;
+    /* right: 69px; */
+    background: linear-gradient(153deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(21px);
+    /* transform: rotate(90deg); */
+    /* flex-shrink: 0; */
+    /* border: 1px solid #FFF; */
+
+
+    /* border: 2px solid red; */
+}
+
+.fedxlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+}
+
+.logo {
+    /* border: 1px solid red; */
+    width: 60px;
+    height: 60px;
+}
+
+.logo {
+    width: 59px;
+    height: 59px;
+    background-color: #F45725;
+    box-shadow: 0px 0px 11.292px 0px rgba(0, 0, 0, 0.30) inset;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.logosvg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.logosvg img {
+    width: 48.273px;
+    height: 64.646px;
+}
+
+.title {
+    color: #FFF;
+    text-shadow: 1px 0.497px 1px #F45725;
+    font-family: Rubik;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.navigation_links {
+    color: white;
+    display: flex;
+    width: 542px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.navigation_links div {
+    /* color: #FFF; */
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.892px;
+    /* 99.614% */
+    letter-spacing: 0.14px;
+}
